@@ -20,7 +20,7 @@ class Config(object):
 	OWNER_ID = int(os.environ.get("OWNER_ID", "5574593875"))
 	CAPTION = "By @Shark_Watermark_Bot"
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Shark_Watermark_Bot")
-	DATABASE_URL = os.environ.get("DATABASE_URL", "")
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://shubhamsinghal903:Doraemonfilestore@cluster0.6dsixxc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", False))
 	USAGE_WATERMARK_ADDER = """
